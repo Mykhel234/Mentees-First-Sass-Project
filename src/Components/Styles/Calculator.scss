@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    // background-attachment: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/public/bg5.jpg');
+    background-position: bottom;
+}
+
+.Wrap {
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+}
+
+input {
+    width: 90%;
+    height: 60px;
+    // padding: 20px 148px;
+    // background: red;
+    border-radius: 10px;
+    margin: 20px 0;
+    outline: 0;
+    border: 0;
+    box-shadow: inset  rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    direction: rtl;
+    padding: 10px;
+    // border: solid 2px lightgrey ;
+    // box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    // box-shadow:inset  rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    // filter: drop-shadow(8px 6px 2px rgba(0, 0, 0, 0.35));
+    // position: relative;
+}
+
+input::placeholder {
+    text-align: right;
+    font-weight: bold;
+}
+
+.buttonWrap {
+    width: 95%;
+    // background: red;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: space-around;
+}
+
+.row {
+    // background: green;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .red {
+        background: rgb(255, 0, 0);
+    }
+
+    .green {
+        background: rgb(108, 197, 108);
+    }
+    
+    .blue {
+        background: rgb(90, 90, 238);
+    }
+
+
+    button {
+        // padding: 20px;
+        width: 70px;
+        height: 45px;
+        border-radius: 5px;
+        border: 0;
+        margin: 5px 0;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+        background: white;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
